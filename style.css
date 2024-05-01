@@ -1,0 +1,56 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.site-header-titles {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    justify-content: space-between;
+    background-color: rgba(17, 95, 81, 0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.site-header-image {
+    width: 20%;
+}
+
+body {
+    background-color: #2f2f69;
+    background-image: url(./Background.svg);
+    background-size: 200%;
+    background-position: center;
+}
+
+.cards-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(500px, 1fr);
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle at bottom, rgba(15, 115, 96, 0.9), rgba(214, 40, 43, 0.9));
+    border-radius: 7px;
+    border: none;
+}
+
+.card-title {
+    color: #fbfbfb;
+    margin: auto;
+}
