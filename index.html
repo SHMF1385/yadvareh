@@ -20,27 +20,40 @@
     </div>
     <div class="center">
         <div class="cards-grid">
-            <div class="card">
-                <img src="shahid/soleimani.jpg" alt="شهید قاسم سلیمانی">
+            <div class="card" id="soleimani" onclick="direct(this)">
+                <img class="card-img" src="shahid/soleimani.png" alt="شهید قاسم سلیمانی">
                 <h2 class="card-title">شهید قاسم سلیمانی</h2>
             </div>
             <div class="card">
-                <img src="shahid/soleimani.jpg" alt="شهید قاسم سلیمانی">
-                <h2 class="card-title">شهید قاسم سلیمانی</h2>
+                <img class="card-img" src="shahid/jahanara.png" alt="شهید قاسم سلیمانی">
+                <h2 class="card-title">شهید سید محمد جهان‌آرا</h2>
             </div>
             <div class="card">
-                <img src="shahid/soleimani.jpg" alt="شهید قاسم سلیمانی">
-                <h2 class="card-title">شهید قاسم سلیمانی</h2>
+                <img class="card-img" src="shahid/chamran.png" alt="شهید قاسم سلیمانی">
+                <h2 class="card-title">شهید مصطفی چمران</h2>
             </div>
             <div class="card">
-                <img src="shahid/soleimani.jpg" alt="شهید قاسم سلیمانی">
-                <h2 class="card-title">شهید قاسم سلیمانی</h2>
+                <img class="card-img" src="shahid/zarrin.png" alt="شهید قاسم سلیمانی">
+                <h2 class="card-title">شهید عبدالرسول زرین</h2>
             </div>
             <div class="card">
-                <img src="shahid/soleimani.jpg" alt="شهید قاسم سلیمانی">
+                <img class="card-img" src="shahid/" alt="شهید قاسم سلیمانی">
                 <h2 class="card-title">شهید قاسم سلیمانی</h2>
             </div>
         </div>
     </div>
+    <div class="footer">
+        <img class="footer-line" src="Asset 6line.svg">
+        <div class="footer-images">
+            <img class="footer-img" src="Sampad.svg" alt="">
+            <img class="footer-img" src="basij.jpg" alt="">
+            <img class="footer-img" src="sepah.jpg" alt="">
+        </div>
+    </div>
 </body>
+<script>
+    function direct(div) {
+        window.location.href = `/shahid/${div.id}.html`;
+    }
+</script>
 </html>
